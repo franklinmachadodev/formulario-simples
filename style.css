@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    background-color: #f1f1f1;
+   }
+
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color: #F80233;   
+   }
+
+fieldset {
+    width: 45%;
+    margin: 20px auto;
+    color: rgb(128, 128, 128);
+    background: #ffff; 
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px #283739; 
+    padding: 30px;
+    padding-bottom: 10px;
+   }
+
+input, textarea, select, option {
+    font-family: Roboto;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    border-radius: 5px;
+   } 
+   
+input {
+    resize: none;
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;      
+   }
+
+textarea {
+    resize: none;
+    width: 600px;
+    height: 100px;
+    vertical-align: top;
+   }
+
+label {
+    display: inline-block;
+    width: none;
+    text-align: right;
+    margin-bottom: 20px;
+    color: rgb(128, 128, 128);
+   }
+
+p.paragrafo-inicial {
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 25px;
+    margin: auto;
+    margin-top: 20px;
+   }
+
+footer {
+    text-align: center;
+    color: rgb(128, 128, 128);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}   
+
+footer.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+
+button {
+    width: 150px;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #F80233;
+    height: 40px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px; 
+    border: 0.5px; 
+    cursor: pointer;  
+   }
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+
+a:link {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;     
+    position: absolute;
+    top: 50%; 
+    margin-top: -25px;
+    
+}
